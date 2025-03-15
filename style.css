@@ -1,0 +1,87 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f2f7;
+    color: #333;
+}
+
+nav {
+    background-color: #cce0e5;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav a {
+    color: #03a9f4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header {
+    background: linear-gradient(135deg, #03a9f4, #f06292);
+    color: white;
+    text-align: center;
+    padding: 2em 0;
+    position: relative; /* Untuk posisi foto profil */
+}
+
+header h1 {
+    margin-bottom: 0.2em;
+}
+
+.profil-foto {
+    width: 150px; /* Sesuaikan ukuran foto */
+    height: 150px;
+    border-radius: 50%; /* Membuat foto bulat */
+    position: absolute; /* Posisi relatif terhadap header */
+    top: 20px; /* Sesuaikan posisi vertikal */
+    left: 50%;
+    transform: translateX(-50%); /* Posisi tengah horizontal */
+    border: 5px solid white; /* Border putih untuk foto */
+}
+
+section {
+    padding: 2em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section h2 {
+    color: #f06292;
+    border-bottom: 2px solid #03a9f4;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+}
+
+.proyek {
+    border: 1px solid #ddd;
+    padding: 1em;
+    margin-bottom: 1em;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.proyek img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 0.5em;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #cce0e5;
+    color: #666;
+}
